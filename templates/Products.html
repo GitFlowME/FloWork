@@ -1,0 +1,42 @@
+<div ng-repeat="item in todos">
+
+    <div class="container">
+
+
+      <div class="row">
+
+        <div class="col-md-5">
+        <a href="#/Products/Category/Jewelry/{{item.sku}}">
+
+          <h3>
+            {{item.product_title}}</h3>
+
+        </a>
+      </div>
+</div>
+
+<div class="row">
+  <div class="col-md-1">
+  <a href="#/Products/Category/Jewelry/{{item.sku}}">
+
+    <img ng-src="{{item.product_image}}" />
+
+  </a>
+</div>
+
+<div class="col-md-11">
+
+    <ins>Description</ins>: <small>{{item.product_quick_description}}</small>
+<br /><br />
+<a ng-href="{{item.product_link}}" target="_blank" class="btn btn-success">
+Get OFFER Now
+</a>
+</div>
+</div>
+
+</div>
+
+
+</div>
+
+<br /><br />
