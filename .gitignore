@@ -7,10 +7,12 @@ lib/js/data/routes.json
 node_modules/
 lib/vendors/alicerss/alicerss.js
 
+templates/Products.html
 templates/api/BestDeals.html
 templates/api/DailyDeals.html
 templates/api/JewelryCat.html
 templates/api/*
+templates/api/*.html
 
 *DS_Store
 **/*DS_Store
