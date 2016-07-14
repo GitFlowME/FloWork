@@ -1,0 +1,139 @@
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+.text-left.catLogo {
+    font-family: fantasy;
+    text-transform: uppercase;
+    text-rendering: optimizeSpeed;
+    text-shadow: 3px 3px #E4E3E3;
+}
+
+/* Main Banners */
+
+.mainBanner {
+    height: 285px;
+    margin-top: -20px;
+    border-bottom: 1px solid #c0c0c0;
+    box-shadow: 6px 4px 9px #A5A5A5;
+}
+.mainIndex {
+    background: rgba(35, 35, 35, 0.18);
+    margin-top: -2rem;
+}
+.ContentIndex {
+    margin-top: 2rem;
+}
+.mainIndexBottom {
+    background: rgba(35, 35, 35, 0.18);
+    margin-bottom: -5rem;
+}
+.displayBg {
+    background: #FFFFFF;
+    padding: 2%;
+    padding-top: 0%;
+    border-radius: 14px;
+}
+.productImg {
+    background: #ECECEC;
+    border: 1px #FFF solid;
+    border-radius: 8px;
+    padding: 2px;
+    box-shadow: 2px 2px 10px rgba(136, 84, 84, 0.16);
+}
+.productDescription {
+    font-size: 18px;
+    padding: 3%;
+    background: #FFF;
+    border: 1px #DDD solid;
+    margin-top: -1px;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 2px 2px 2px #B7B7B7;
+}
+.circ-icon {
+    border-radius: 12px;
+    padding: 31px;
+    border-right: 4px #fff solid;
+    border-left: 4px #fff solid;
+    border-bottom: 8px solid #fff;
+    background: #e2e2e2;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=0);
+}
+h2 a {
+    text-decoration: none;
+    color: #a25f14;
+    font-family: serif;
+    text-shadow: 2px 1px #c0c0c0;
+}
+p {
+    font-size: 1em;
+    line-height: 1.25em;
+    margin: 1.25em 0;
+    text-align: left;
+}
+.menu-hover {
+    background: #e2e2e2;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=0);
+}
+.menu-kkk {
+    background: #E2E8EC;
+}
+hr.divider {
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr.divider:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+
+/*footer*/
+
+footer {
+    background: #000000;
+    color: #fff;
+    font-family: initial;
+    padding: 5px;
+    margin-top: 5rem;
+    height: 58px;
+}
+.footer-ins {
+    content: url(../../images/we-love-insanen-pink.png);
+    width: 147px;
+    height: 23px;
+    padding-left: 4px;
+    margin-top: 5px;
+}
+.footer-ins:hover {
+    content: url(../../images/we-love-insanen.png);
+    width: 147px;
+    height: 23px;
+    padding-left: 4px;
+    margin-top: 5px;
+}
+.copyrightFont {
+    font-size: 18px;
+    font-family: -webkit-pictograph;
+    padding-top: 4px;
+}

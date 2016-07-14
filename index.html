@@ -1,23 +1,20 @@
 <!doctype html>
-
 <html lang="en" ng-app="fWapp">
 
 <head>
     <meta charset="utf-8">
-    <base href="/Flowork/">
+    <base href="/">
     <title></title>
     <meta content="Site Description" name="description">
-    <meta content="Name" name="author">
-    <meta content="Nick Rodriguez" name="designer">
+    <meta content="MisterZik" name="author">
+    <meta content="Insanen Solutions" name="designer">
 
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/vendors/gridzy.min.css" rel="stylesheet">
-    <link href="css/vendors/minerva.css" rel="stylesheet">
-    <link href="css/vendors/navul.css" rel="stylesheet">
+    <link href="/lib/css/style.css" rel="stylesheet">
+    <link href="/lib/vendors/gridzycss/gridzy.min.css" rel="stylesheet">
+    <link href="/lib/vendors/minervajs/minerva.css" rel="stylesheet">
+    <link href="/lib/vendors/navuljs/navul.css" rel="stylesheet">
     <!--  <link href="css/minerva-mobile.css" rel="stylesheet"> -->
-
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
-
     <!--[if lt IE 9]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
 </head>
 
@@ -28,9 +25,9 @@
             <div class="container-full">
                 <ul class="navul" ng-controller="GlobalController">
                     <li><a>{{SiteName}}</a></li>
-                    <li><a ng-href="/Flowork{{urlNavHome}}">Home</a></li>
-                    <li><a ng-href="/Flowork{{urlNavLink2}}">Who We Area</a></li>
-                    <li><a ng-href="/Flowork{{urlNavLink3}}">Contact Us</a></li>
+                    <li><a ng-href="{{urlNavHome}}">Home</a></li>
+                    <li><a ng-href="{{urlNavLink2}}">Who We Area</a></li>
+                    <li><a ng-href="{{urlNavLink3}}">Contact Us</a></li>
                     <li class="icon"><a href="javascript:void(0);" onclick="navulFunc()">&#9776;</a></li>
                 </ul>
             </div>
@@ -61,8 +58,8 @@
         <div class="container">
             <div class="footer">
                 <a href="http://insanen.com" alt="With Love By Insanen Solutions." target="_blank">
-                    <a class="pull-left" border="0">
-                        <h5>&copy Copyright 2005-2016</h5>
+                    <a class="pull-left copyrightFont" border="0">
+                        <h5>&copy Copyright {{SiteName}} 2016</h5>
                     </a>
 
                     <a href="http://insanen.com" alt="With Love By Insanen Solutions." target="_blank">
@@ -71,15 +68,16 @@
             </div>
         </div>
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.js"></script>
-    <script src="js/vendors/minerva.js"></script>
-    <script src="js/vendors/navul.js"></script>
-    <script src="js/vendors/locationApi.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-rc.0/angular.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-rc.0/angular-route.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-rc.0/angular-resource.min.js"></script>
-    <script src="js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.js" type="text/javascript"></script>
+    <script src="/lib/vendors/minervajs/minerva.js" type="text/javascript"></script>
+    <script src="/lib/vendors/navuljs/navul.js" type="text/javascript"></script>
+    <script src="https://www.google.com/jsapi" type="text/javascript"></script>
+    <script src="/lib/vendors/alicerss/alicerss-custom-minify.js" type="text/javascript"></script>
+    <script src="/lib/vendors/angular/angular.min.js" type="text/javascript"></script>
+    <script src="/lib/vendors/angular-route/angular-route.min.js" type="text/javascript"></script>
+    <script src="/lib/vendors/angular-resource/angular-resource.min.js" type="text/javascript"></script>
+    <script src="/lib/js/app.js"></script>
 
 
 </body>
