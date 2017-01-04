@@ -1,19 +1,8 @@
 !js/data/gems.json
-lib/js/data/db-1452890351793.json
-lib/js/controller/RestCont.js
-lib/js/controller/DisplayCont.js
-lib/js/app-backup.js
-lib/js/data/routes.json
 node_modules/
 lib/vendors/alicerss/alicerss.js
-
-templates/Products.html
-templates/api/BestDeals.html
-templates/api/DailyDeals.html
-templates/api/JewelryCat.html
-templates/api/*
-templates/api/*.html
 
 *DS_Store
 **/*DS_Store
 **/**/*DS_Store
+

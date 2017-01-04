@@ -10,9 +10,9 @@ About Us Page
 ![Alt text](ss-about.png?raw=true "About Us View")
 
 ### Come's Pack with ...
-* HTML Template
-* AngularJS Routing
-* AngularJS Controllers
+* HTML5 Template
+* AngularJS 1.X Routing
+* AngularJS 1.X Controllers
 * Lorem Ipsum JSON Data
 * Javascript Vendor Scripts (AngularJS, MinervaJS, NavUlJS)
 * CSS Vendor Scripts (GridzyCSS)
