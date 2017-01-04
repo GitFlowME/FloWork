@@ -1,15 +1,16 @@
 {
   "name": "FloWork",
-  "version": "1.1.0",
+  "version": "1.3.0",
   "description": "FloWork also known as Flow Work, is a boiler plate application written in Javascript & Some AngularJS 1.X.",
   "main": "Gruntfile.js",
   "dependencies": {
-        "angular":          "1.5.7",
-        "angular-route":    "1.5.7",
-        "angular-sanitize": "1.5.7",
-        "angular-resource": "1.5.7",
-        "jquery":           "3.0.0"
-    },
+    "angular": "1.5.7",
+    "angular-resource": "1.5.7",
+    "angular-route": "1.5.7",
+    "angular-sanitize": "1.5.7",
+    "express": "^4.14.0",
+    "jquery": "3.0.0"
+  },
   "devDependencies": {
     "grunt": "~0.4.5",
     "grunt-contrib-cssmin": "^1.0.1",
@@ -19,11 +20,12 @@
     "grunt-contrib-watch": "~0.6.1"
   },
   "ignore_files": [
-  "**/.*",
-  "node_modules",
-  "bower_components",
-  "test",
-  "tests",
-  "css",
-  "js"]
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "css",
+    "js"
+  ]
 }
