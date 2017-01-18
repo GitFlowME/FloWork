@@ -1,30 +1,66 @@
 {
-  "name": "angular-resource",
-  "version": "1.5.7",
-  "description": "AngularJS module for interacting with RESTful server-side data sources",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/angular/angular.js.git"
-  },
-  "keywords": [
-    "angular",
-    "framework",
-    "browser",
-    "rest",
-    "client-side"
+  "_args": [
+    [
+      {
+        "raw": "angular-resource@1.6.1",
+        "scope": null,
+        "escapedName": "angular-resource",
+        "name": "angular-resource",
+        "rawSpec": "1.6.1",
+        "spec": "1.6.1",
+        "type": "version"
+      },
+      "/Users/misterzik/Documents/Pathway/Web/FloWorkx"
+    ]
   ],
+  "_from": "angular-resource@1.6.1",
+  "_id": "angular-resource@1.6.1",
+  "_inCache": true,
+  "_location": "/angular-resource",
+  "_nodeVersion": "6.9.2",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/angular-resource-1.6.1.tgz_1482490949020_0.8316688181366771"
+  },
+  "_npmUser": {
+    "name": "angularcore",
+    "email": "angular-core+npm@google.com"
+  },
+  "_npmVersion": "3.10.9",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "angular-resource@1.6.1",
+    "scope": null,
+    "escapedName": "angular-resource",
+    "name": "angular-resource",
+    "rawSpec": "1.6.1",
+    "spec": "1.6.1",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/angular-resource/-/angular-resource-1.6.1.tgz",
+  "_shasum": "9eeea8c59238439ba15ad31be0eb70f2442f77a1",
+  "_shrinkwrap": null,
+  "_spec": "angular-resource@1.6.1",
+  "_where": "/Users/misterzik/Documents/Pathway/Web/FloWorkx",
   "author": {
     "name": "Angular Core Team",
     "email": "angular-core+npm@google.com"
   },
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/angular/angular.js/issues"
   },
+  "dependencies": {},
+  "description": "AngularJS module for interacting with RESTful server-side data sources",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "9eeea8c59238439ba15ad31be0eb70f2442f77a1",
+    "tarball": "https://registry.npmjs.org/angular-resource/-/angular-resource-1.6.1.tgz"
+  },
+  "gitHead": "d203a7dae4943f2ef39693b5e4b456be6369ec53",
   "homepage": "http://angularjs.org",
   "jspm": {
     "shim": {
@@ -35,20 +71,15 @@
       }
     }
   },
-  "gitHead": "579d3c3b7daaa4c80027caed9b8080bb853a19fb",
-  "_id": "angular-resource@1.5.7",
-  "_shasum": "f72dcf8d24b89343f0740dea764e3c9298479ff6",
-  "_from": "angular-resource@1.5.7",
-  "_npmVersion": "2.15.5",
-  "_nodeVersion": "4.4.5",
-  "_npmUser": {
-    "name": "angularcore",
-    "email": "angular-core+npm@google.com"
-  },
-  "dist": {
-    "shasum": "f72dcf8d24b89343f0740dea764e3c9298479ff6",
-    "tarball": "https://registry.npmjs.org/angular-resource/-/angular-resource-1.5.7.tgz"
-  },
+  "keywords": [
+    "angular",
+    "framework",
+    "browser",
+    "rest",
+    "client-side"
+  ],
+  "license": "MIT",
+  "main": "index.js",
   "maintainers": [
     {
       "name": "angularcore",
@@ -59,10 +90,15 @@
       "email": "pete@bacondarwin.com"
     }
   ],
-  "_npmOperationalInternal": {
-    "host": "packages-16-east.internal.npmjs.com",
-    "tmp": "tmp/angular-resource-1.5.7.tgz_1466018873807_0.7956401687115431"
+  "name": "angular-resource",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angular/angular.js.git"
   },
-  "directories": {},
-  "_resolved": "https://registry.npmjs.org/angular-resource/-/angular-resource-1.5.7.tgz"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.6.1"
 }

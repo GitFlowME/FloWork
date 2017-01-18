@@ -1,7 +1,9 @@
 {
   "name": "FloWork",
   "description": "FloWork also known as Flow Work, is a boiler plate application written in Javascript & Some AngularJS 1.X.",
-  "main": ["index.html"],
+  "main": [
+    "index.html"
+  ],
   "authors": [
     "misterzik@insanen.com"
   ],
