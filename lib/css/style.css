@@ -16,9 +16,10 @@
     border-bottom: 1px solid #c0c0c0;
     box-shadow: 6px 4px 9px #A5A5A5;
 }
-.mainIndex {
+.sponsors {
     background: rgba(35, 35, 35, 0.18);
-    margin-top: -2rem;
+    margin-bottom: -5rem;
+    padding: 14px;
 }
 .ContentIndex {
     margin-top: 2rem;
@@ -49,17 +50,9 @@
     border-radius: 0px 0px 4px 4px;
     box-shadow: 2px 2px 2px #B7B7B7;
 }
-.circ-icon {
-    border-radius: 12px;
-    padding: 31px;
-    border-right: 4px #fff solid;
-    border-left: 4px #fff solid;
-    border-bottom: 8px solid #fff;
-    background: #E2E8EC;
-}
 h2 a {
     text-decoration: none;
-    color: #a25f14;
+    color: #355994;
     font-family: serif;
     text-shadow: 2px 1px #c0c0c0;
 }
@@ -69,10 +62,10 @@ p {
     margin: 1.25em 0;
     text-align: left;
 }
-.menu-hover {
+.block-bg-hover {
     background: #e2e2e2;
 }
-.menu-kkk {
+.block-bg {
     background: #E2E8EC;
 }
 hr.divider {
@@ -91,6 +84,10 @@ hr.divider:after {
     padding: 0 0.25em;
     background: white;
 }
+.logo-link a {
+    color: #000;
+    font-size: 3rem;
+}
 
 /*footer*/
 
@@ -100,6 +97,7 @@ footer {
     font-family: initial;
     padding: 5px;
     margin-top: 5rem;
+    padding-top: 1rem;
     height: 58px;
 }
 .footer-ins {

@@ -10,6 +10,7 @@
     <meta content="Insanen Solutions" name="designer">
 
     <link href="/lib/css/style.css" rel="stylesheet">
+    <link href="node_modules/font-awesome/css/font-awesome.css" rel="stylesheet">
     <link href="/lib/vendors/gridzycss/gridzy.min.css" rel="stylesheet">
     <link href="/lib/vendors/minervajs/minerva.css" rel="stylesheet">
     <link href="/lib/vendors/navuljs/navul.css" rel="stylesheet">
@@ -25,9 +26,9 @@
             <div class="container-full">
                 <ul class="navul" ng-controller="GlobalController">
                     <li><a>{{SiteName}}</a></li>
-                    <li><a ng-href="{{urlNavHome}}">Home</a></li>
-                    <li><a ng-href="{{urlNavLink2}}">Who We Area</a></li>
-                    <li><a ng-href="{{urlNavLink3}}">Contact Us</a></li>
+                    <li><a ng-href="{{MenUrl0}}">{{MenuTitle0}}</a></li>
+                    <li><a ng-href="{{MenUrl1}}">{{MenuTitle1}}</a></li>
+                    <li><a ng-href="{{MenUrl2}}">{{MenuTitle2}}</a></li>
                     <li class="icon"><a href="javascript:void(0);" onclick="navulFunc()">&#9776;</a></li>
                 </ul>
             </div>
@@ -37,8 +38,8 @@
     <div class="wrapper-minerva">
         <div class="container-minerva" ng-controller="GlobalController">
             <ul id="slider">
-                <li><img style="width: 100%;" ng-src="{{imgSlider}}" /></li>
-                <li><img style="width: 100%;" ng-src="{{imgSlider2}}" /></li>
+                <li><img style="width: 100%;" ng-src="{{SliderIMG0}}" /></li>
+                <li><img style="width: 100%;" ng-src="{{SliderIMG2}}" /></li>
             </ul>
 
             <ul id="dots">
@@ -72,8 +73,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.js" type="text/javascript"></script>
     <script src="/lib/vendors/minervajs/minerva.js" type="text/javascript"></script>
     <script src="/lib/vendors/navuljs/navul.js" type="text/javascript"></script>
-    <script src="https://www.google.com/jsapi" type="text/javascript"></script>
-    <script src="/lib/vendors/alicerss/alicerss-custom-minify.js" type="text/javascript"></script>
     <script src="/lib/vendors/angular/angular.min.js" type="text/javascript"></script>
     <script src="/lib/vendors/angular-route/angular-route.min.js" type="text/javascript"></script>
     <script src="/lib/vendors/angular-resource/angular-resource.min.js" type="text/javascript"></script>
